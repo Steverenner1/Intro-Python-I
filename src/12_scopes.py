@@ -19,6 +19,7 @@ print(x)
 def outer():
     y = 120
     def inner():
+        nonlocal y
         y = 999
         print(y)
     inner()

@@ -18,5 +18,5 @@ with open('./foo.txt', 'r') as f:
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
-with open('./bar.txt', 'r') as f:
-    print(f.read())
+with open('./bar.txt', 'w') as f:
+    f.write("foobar")
